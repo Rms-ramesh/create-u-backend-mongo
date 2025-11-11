@@ -1,13 +1,24 @@
-# 🏗️ Universal Backend Generator v3
+# 🚀 create-u-backend-mongo
 
-A sleek and powerful CLI tool to **instantly generate Express + MongoDB backends** — with optional authentication (JWT), file uploads (Multer), and environment configuration.
+A professional, zero-config **Express + MongoDB backend generator**.  
+Set up a fully structured backend with CRUD APIs, `.env`, MongoDB connection, and automatic installation — all in seconds.
 
 ---
 
-## ✨ Features
+## ⚡ Features
 
-✅ **Instant setup** — create a fully functional Express + MongoDB backend in seconds.  
-✅ **Modular architecture** — controllers, routes, models, config separated cleanly.  
-✅ **Scalable structure** — easily extendable for enterprise-grade projects.  
-✅ **Optional modules**:
+- 🧩 Auto-generates Express + MongoDB backend
+- 📁 Creates models, routes, controllers, and config folders
+- 🔧 Automatically installs dependencies
+- ⚙️ Uses `node --watch` for live reload (no need for nodemon)
+- 🧠 Clean, colorful CLI output
 
+---
+
+## 📦 Installation
+
+```bash
+npm create u-backend-mongo@latest
+
+or with npx
+npx create-u-backend
